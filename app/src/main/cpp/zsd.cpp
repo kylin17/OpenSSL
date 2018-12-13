@@ -8,7 +8,7 @@
 #include"zsd.h"
 
 //换成你自己的apk-sha1值
-const char *signatureOfApk = "2C7040544F268F47991CDCB5F54C7ACE74B53FC2";
+const char *signatureOfApk = "0CDA0ADA0041E28A53B0DCCDC30D5B90F59DF724";
 
 const char digest[] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'};
 

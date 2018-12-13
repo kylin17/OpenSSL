@@ -6,7 +6,7 @@
 cmake_minimum_required(VERSION 3.4.1)
 
 #配置加载头文件
-include_directories(E:/AndroidSpace/OpenSSL/app/alley/include)
+include_directories(~/Workspace/Android/OpenSSL/OpenSSL/app/alley/include)
 
 # Creates and names a library, sets it as either STATIC
 # or SHARED, and provides the relative paths to its source code.
@@ -26,8 +26,8 @@ add_library( # Sets the name of the library.
 add_library(openssl SHARED IMPORTED )
 add_library(ssl SHARED IMPORTED )
 #引入第三方.so库
-set_target_properties(openssl PROPERTIES IMPORTED_LOCATION E:/AndroidSpace/OpenSSL/app/alley/lib/${ANDROID_ABI}/libcrypto.so)
-set_target_properties(ssl PROPERTIES IMPORTED_LOCATION E:/AndroidSpace/OpenSSL/app/alley/lib/${ANDROID_ABI}/libssl.so)
+set_target_properties(openssl PROPERTIES IMPORTED_LOCATION ~/Workspace/Android/OpenSSL/OpenSSL/app/alley/lib/${ANDROID_ABI}/libcrypto.so)
+set_target_properties(ssl PROPERTIES IMPORTED_LOCATION ~/Workspace/Android/OpenSSL/OpenSSL/app/alley/lib/${ANDROID_ABI}/libssl.so)
 
 # Searches for a specified prebuilt library and stores the path as a
 # variable. Because CMake includes system libraries in the search path by

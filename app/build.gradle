@@ -30,7 +30,7 @@ android {
 
     sourceSets {
         main {
-            jniLibs.srcDirs = ['E:\\AndroidSpace\\OpenSSL\\app\\alley\\lib']
+            jniLibs.srcDirs = ['libs']
         }
     }
 
